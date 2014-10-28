@@ -839,14 +839,14 @@ select {
 }
 html {
 	font-size: 10px;
-	-webkit-tap-highlight-color: rgba(0,0,0,0)
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #333;
-	background-color: #fff
+	background-color: #252525 !important;
 }
 input, button, select, textarea {
 	font-family: inherit;
@@ -3498,11 +3498,11 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 }
 }
 .navbar-default {
-	background-color: #f8f8f8;
-	border-color: #e7e7e7
+	background-color: #336699;
+	border-color: #A9A9A9;
 }
 .navbar-default .navbar-brand {
-	color: #777
+	color: #fff
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
 	color: #5e5e5e;
@@ -3512,10 +3512,10 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 	color: #777
 }
 .navbar-default .navbar-nav>li>a {
-	color: #777
+	color: #fff
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-	color: #333;
+	color: #DAE3FF;
 	background-color: transparent
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {

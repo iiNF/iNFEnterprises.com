@@ -1,5 +1,6 @@
 /*  CSS Document */
 /*iNFEnterprises.com*/
+
 div#navbar-collapse {
 text-transform: uppercase;
 font-size: 9px;
@@ -7,5 +8,63 @@ letter-spacing: 3px;
 }
 
 body {
-background-color: #525252 !important;
+background-image: url(../images/bg.jpg);
+background-repeat: no-repeat; 
+background-size: cover;
+background-position: 0 50px;
+width: 100%;
+height: 100%;
+overflow-x:hidden;	
+}
+
+.container.mainbody {
+margin-top: 60px;
+}
+
+span.navbar-brand.progress1 {
+height: auto;
+float: none !important;
+padding: 0 !important;
+font-size: 15px;
+line-height: 20px;
+color: white;
+font-weight: bold;
+text-decoration: none;
+}
+
+h2.progressTitle {
+text-align: center;
+color: white;
+}
+
+.button.transparent{
+color: white !important;
+text-transform: uppercase;
+padding: 5px 5px 5px 5px;
+text-align: center;
+font-weight: bold;
+border-color: white !important;
+background-color: transparent;
+border: 2px solid;	
+position: relative;
+}
+
+.container-small {
+background-color: #336699;
+padding: 5px 5px 5px 5px;
+margin-top: 40%;
+position: relative;
+top: 60px;
+background-image: url(../images/bg.png);
+}
+
+
+a.button.transparent.visible-lg:hover{
+-moz-box-shadow: 3px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 3px 3px rgba(0,0,0,0.5);
+box-shadow: 3px 3px rgba(0,0,0,0.5);
+
+-webkit-transition: -webkit-box-shadow ease-in-out .35s;
+-o-transition: box-shadow ease-in-out .35s;
+transition: box-shadow ease-in-out .35s
 }
