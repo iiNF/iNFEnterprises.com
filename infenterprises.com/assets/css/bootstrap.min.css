@@ -846,7 +846,6 @@ body {
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #333;
-	background-color: #252525 !important;
 }
 input, button, select, textarea {
 	font-family: inherit;
@@ -3498,8 +3497,8 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 }
 }
 .navbar-default {
-	background-color: #336699;
-	border-color: #A9A9A9;
+	background-color: #2d313d;
+	border-color: #a6adcd;
 }
 .navbar-default .navbar-brand {
 	color: #fff
@@ -3520,7 +3519,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 	color: #555;
-	background-color: #e7e7e7
+	background-color: #a6adcd;
 }
 .navbar-default .navbar-nav>.disabled>a, .navbar-default .navbar-nav>.disabled>a:hover, .navbar-default .navbar-nav>.disabled>a:focus {
 	color: #ccc;
